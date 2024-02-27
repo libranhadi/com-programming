@@ -69,6 +69,7 @@ func BenchmarkSearchingLongestSubstring(b *testing.B) {
 func lengthOfLongestSubstring(s string) int {
 	var result string
 	isContinue := false
+
 	for i := 0; i < len(s); i++ {
 		parentChar := s[i]
 		subCharacters := s[i+1:]

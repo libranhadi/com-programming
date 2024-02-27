@@ -16,7 +16,7 @@ type Denomination struct {
  * @Desc: Test Fraction
  */
 func TestFraction(t *testing.T) {
-	results := Fraction(42751)
+	results := Fraction(2102)
 	fmt.Println(results)
 }
 
